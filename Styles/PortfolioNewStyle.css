@@ -737,6 +737,7 @@ section:last-of-type div div form button {
     color: white;
     border: none;
     padding: 11px;
+    cursor: pointer;
     float: right;
 }
 
