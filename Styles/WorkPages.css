@@ -356,6 +356,8 @@ main section:nth-of-type(5) img{
 
 main section:nth-of-type(6) {
      text-align: center;
+      padding-bottom: 60px;
+    
 }
 main section:nth-of-type(6) h1{
      color: #418D9E;
@@ -444,9 +446,168 @@ footer div a img:hover {
 
 }
 
+/*recomendations*/
 
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 80%;
 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #F8F8F8;
+    border: 1.5px solid #E7A5BC;
+}
+
+.card div h4 {
+    border-top: 1.5px solid #E7A5BC;
+    color: #fff;
+}
+
+.card img {
+    width: 86%;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    padding: 2px 16px;
+    padding-bottom: 20px;
+    background-color: #418D9E;
+
+
+}
+
+.card .container a {
+    text-decoration: none;
+    color: #000;
+    background-color: #9AD6E5;
+    padding: 15px;
+    border-radius: 8px;
+
+
+}
+
+.card .container a:hover {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border: 1.5px solid #262962;
+    color: #262962;
+    background-color: #fff;
+    transition: .2s;
+
+}
+
+.card .container p {
+    margin-bottom: 30px;
+
+}
+
+.mijnwerk .pagination {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+
+.mijnwerk .pagination div {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.mijnwerk .pagination .page {
+    color: #fff;
+}
+
+.mijnwerk .pagination .prev,
+.mijnwerk .pagination .next {
+    color: #fff;
+    background-color: #E7A5BC;
+    font-size: 14px;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.mijnwerk .pagination .prev.disabled,
+.mijnwerk .pagination .next.disabled {
+
+    color: #fff;
+    pointer-events: none;
+}
+
+.mijnwerk .list-wrapper .card.hide {
+    display: none;
+
+}
+
+.mijnwerk .list-wrapper .card.show {
+    display: block;
+    animation: show .5s ease;
+
+
+}
+.mijnwerk .list-wrapper .card:first-of-type  img{
+  
+    
+}
+.mijnwerk .list-wrapper .card:nth-of-type(2)  img{
+     width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+body > main > article > div > div:nth-child(1) > a > img{
+     width: 100%;
+    height: 30vh;
+  object-fit: cover;
+ 
+  
+}
+
+body > main > article > div > div:nth-child(2) > a > img{
+      width: 100%;
+    height: 30vh;
+    object-fit: cover;
+   
+
+}
+
+.card a{
+    text-decoration: none;
+}
+
+
+article{
+        background-color: #418D9E;
+   
+    padding-top: 10px;
+        padding-bottom: 40px;
+}
+article h1{
+    color:#E7A5BC;
+    margin-left: 40px;
+  
+}
+.henktop{
+    object-position: top;
+}
+.arwaarheidtop{
+     object-position: top;
+    
+}
+.hmtop{
+    object-position: top;
+}
 /* Enlightement
 .work1 {
     height: 100vh;
