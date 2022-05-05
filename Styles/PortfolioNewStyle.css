@@ -601,11 +601,12 @@ h2 {
 }
 .mijnwerk .list-wrapper .card:first-of-type  img{
     width: 100%;
+        object-fit: cover;
     
 }
 .mijnwerk .list-wrapper .card:nth-of-type(2)  img{
     width: 100%;
-    
+        object-fit: cover;
 }
 .mijnwerk .list-wrapper .card:nth-of-type(3) img{
         width: 100%;
